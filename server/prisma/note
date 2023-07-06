@@ -1,0 +1,6 @@
+when you are satisfied with your schema 
+run the following
+npx prisma migrate dev --name init
+
+It creates a new SQL migration file for this migration in the prisma/migrations directory.
+It runs the SQL migration file against the database.

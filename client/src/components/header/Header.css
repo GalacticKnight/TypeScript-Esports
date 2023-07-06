@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: space-between ;
+}
+.logo{
+    width: 8rem;
+    height: 5rem;
+}
+.header-menu{
+    list-style: none;
+    display:flex;
+    gap: 2rem;
+    color: white;
+    font-size: small;
+}
+
+.header-menu>Link{
+    cursor:pointer;
+    
+}
+.header-menu>Link:hover{
+    cursor:pointer;
+    color:var(--red);
+    /* this is orange because of your --blue in app.css */
+    cursor:pointer;
+}
